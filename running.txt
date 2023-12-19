@@ -1,0 +1,6 @@
+CONTAINER ID   IMAGE         COMMAND                  CREATED          STATUS                      PORTS                                       NAMES
+8be1c171ba15   viva_app.py   "/bin/sh -c 'python …"   2 minutes ago    Up 2 minutes                0.0.0.0:5000->5000/tcp, :::5000->5000/tcp   samplerunning
+d50f5065ca93   hello-world   "/hello"                 34 minutes ago   Exited (0) 34 minutes ago                                               mystifying_pike
+CONTAINER ID   IMAGE         COMMAND                  CREATED         STATUS                  PORTS                                       NAMES
+ede683fc72d6   viva_app.py   "/bin/sh -c 'python …"   2 minutes ago   Up 2 minutes            0.0.0.0:5000->5000/tcp, :::5000->5000/tcp   samplerunning
+d50f5065ca93   hello-world   "/hello"                 7 days ago      Exited (0) 7 days ago                                               mystifying_pike
