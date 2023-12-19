@@ -17,10 +17,11 @@ echo "EXPOSE 5000" >> tempdir/Dockerfile
 echo "CMD python /home/myapp/viva_app.py" >> tempdir/Dockerfile
 
 cd tempdir
-sudo docker build -t viva_app.py .
 
-sudo docker run -t -d -p 5000:5000 --name samplerunning viva_app.py
-sudo docker ps -a
+docker build -t viva_app .
+
+docker run -t -d -p 5000:5000 --name samplerunning viva_app.py
+docker ps -a
 
 
 
