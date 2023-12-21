@@ -18,10 +18,10 @@ echo "CMD python /home/myapp/viva_app.py" >> tempdir/Dockerfile
 
 cd tempdir
 
-docker build -t viva_app .
+sudo docker build -t viva_app.py .
 
-docker run -t -d -p 5000:5000 --name samplerunning viva_app.py
-docker ps -a
+sudo docker run -t -d -p 5000:5000 --name samplerunning viva_app.py
+sudo docker ps -a
 
 
 

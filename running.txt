@@ -4,3 +4,8 @@ d50f5065ca93   hello-world   "/hello"                 34 minutes ago   Exited (0
 CONTAINER ID   IMAGE         COMMAND                  CREATED         STATUS                  PORTS                                       NAMES
 ede683fc72d6   viva_app.py   "/bin/sh -c 'python …"   2 minutes ago   Up 2 minutes            0.0.0.0:5000->5000/tcp, :::5000->5000/tcp   samplerunning
 d50f5065ca93   hello-world   "/hello"                 7 days ago      Exited (0) 7 days ago                                               mystifying_pike
+CONTAINER ID   IMAGE         COMMAND    CREATED              STATUS                          PORTS     NAMES
+f9aeb59a6219   hello-world   "/hello"   About a minute ago   Exited (0) About a minute ago             nostalgic_lalande
+CONTAINER ID   IMAGE         COMMAND                  CREATED              STATUS                      PORTS                                       NAMES
+6455d88e7665   viva_app.py   "/bin/sh -c 'python …"   About a minute ago   Up About a minute           0.0.0.0:5000->5000/tcp, :::5000->5000/tcp   samplerunning
+f9aeb59a6219   hello-world   "/hello"                 22 minutes ago       Exited (0) 22 minutes ago                                               nostalgic_lalande
